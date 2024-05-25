@@ -1,0 +1,23 @@
+Linux basic command
+
+echo hello  -> print to screen
+ls -> list files and folders
+cd my_dir1 -> to move new directory
+pwd -> present working directory
+mkdir new_directory -> make directory
+cd new_directory; mkdir www; pwd -> it goes to a new directory , make a folder name with www and show the current directory by pwd command. (multiple command)
+
+mkdir -p dir1/dir2/dir3 -> to create multiple directory using 1 line command 
+rm -r dir1 -> to remove a directory
+rm -r dir1/dir2/dir3 -> here only dir3 will be removed which is in dir2 and dir2 is also in dir1. (remove from sequential directory)
+cp -r dir1 dir2 -> here dir1 and dir2 different independent  directory and dir1 is also copied in dir2.
+cp -r dir1/a/b  dir2/a -> here only the b directory under dir1 is copied in a which is in dir2.Now it shows. dir2/a/b
+	
+	………………………………..Working with files………………………
+touch new_file.txt -> create a file
+cat new_file.txt -> to read the contents of the file
+printf "Contents of file\n" >> file1.txt -> write something in file
+cp file1.txt file2.txt -> here file1.txt contents copies to file2.txt (copy file)
+mv file1.txt file2.txt -> here all contents of file1.txt moved to file2.txt and file1.txt is also removed. Only file2.txt contains in this case.
+rm file1.txt -> to remove file1.txt
+
