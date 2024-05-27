@@ -3,6 +3,8 @@ Linux basic command
 echo hello  -> print to screen
 ls -> list files and folders
 cd my_dir1 -> to move new directory
+cd my-dir1/my_dir2/my_dir3 -> move multiple directory
+cd /mnt/d(drive_name)/a/b -> wsl command to access multiple directory
 pwd -> present working directory
 mkdir new_directory -> make directory
 cd new_directory; mkdir www; pwd -> it goes to a new directory , make a folder name with www and show the current directory by pwd command. (multiple command)
